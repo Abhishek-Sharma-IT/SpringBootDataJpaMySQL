@@ -1,7 +1,16 @@
-## Connection Details ##spring:  datasource:    driver-class-name: com.mysql.jdbc.Driver 
+## Connection Details ##
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver 
     url: jdbc:mysql://localhost:3306/test
-    username: root
-    password: tiger
-   ## ORM Details ##    
-  jpa:    properties:      hibernate:        dialect: org.hibernate.dialect.MySQL55Dialect   
-    hibernate:      ddl-auto: update    show-sql: true  
+    username: 
+    password:
+   
+## ORM Details ##    
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect   
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
